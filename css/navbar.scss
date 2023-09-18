@@ -1,0 +1,9 @@
+@use "./colors" as *;
+@use "./mixin" as *;
+
+header {
+    background: $lightTan;
+    nav {
+        @include flexspacebetween;
+    }
+}
